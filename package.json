@@ -1,6 +1,6 @@
 {
-  "name": "phonebook1",
-  "homepage": "https://serhiy8.github.io/phonebook",
+  "name": "phonebook-app",
+  "homepage": "https://serhiy8.github.io/phonebook-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

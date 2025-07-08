@@ -1,5 +1,3 @@
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
 import { BoxMUI, TextFieldMUI } from "./inputEl.styled";
 
 const InputWithIcon = ({children, name, type, label, onChange}) => {

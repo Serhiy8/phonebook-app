@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/phonebook-app/static/css/main.e6c13ad2.css",
+    "main.js": "/phonebook-app/static/js/main.0a5c701d.js",
+    "index.html": "/phonebook-app/index.html",
+    "main.e6c13ad2.css.map": "/phonebook-app/static/css/main.e6c13ad2.css.map",
+    "main.0a5c701d.js.map": "/phonebook-app/static/js/main.0a5c701d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.0a5c701d.js"
+  ]
+}

@@ -4,13 +4,13 @@ export const List = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    margin-top: 20px;
 `
 export const ListItem = styled.li`
     justify-content: space-between;
     display: flex;
+    width: 100%;
     align-items: center;
-    width: 1120px;
     gap: 30px;
     padding-left: 16px;
     padding-right: 16px;

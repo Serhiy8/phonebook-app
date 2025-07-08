@@ -31,7 +31,7 @@ export const ListOfContacts = () => {
                     <p>{phone}</p>
                 </ListItemContainer>
                 
-                <MuiButton textButton={'delete'} typeButton={<DeleteIcon/>} onClick={() => onDelete(id)} disabled={disabledBtn === id}>delete</MuiButton>
+                <MuiButton typeButton={<DeleteIcon sx={{padding: 0, margin: 0}}/>} onClick={() => onDelete(id)} disabled={disabledBtn === id} />
                 </ListItem>            
             ) : <div>No matches by filter!</div>
             }

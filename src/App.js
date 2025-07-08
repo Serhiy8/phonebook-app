@@ -17,12 +17,15 @@ function App() {
     error && toast.error(error)
   }, [dispatch, error]);
  
-  return (<>
-      <FormAddContact />
-      <Filter />
-      <ListOfContacts />
-      <ToastContainer autoClose={1000}/>
-    </>
+  return (
+    <main>
+      <div className="container">
+        <FormAddContact />
+        <Filter />
+        <ListOfContacts />
+        <ToastContainer autoClose={1000}/>
+      </div>
+    </main>
   );
 }
 export default App;
